@@ -16,13 +16,16 @@
     <ClCompile Include="Font.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="Text.cpp">
-      <Filter>Source</Filter>
-    </ClCompile>
     <ClCompile Include="Texture.cpp">
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="..\..\ThirdParty\glad\src\glad.c">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,10 +39,13 @@
     <ClInclude Include="Font.h">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="Text.h">
+    <ClInclude Include="Texture.h">
       <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="Texture.h">
+    <ClInclude Include="Program.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
       <Filter>Source</Filter>
     </ClInclude>
   </ItemGroup>
