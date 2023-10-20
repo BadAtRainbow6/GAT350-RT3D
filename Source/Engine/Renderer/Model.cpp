@@ -30,7 +30,6 @@ namespace nc
 		glm::mat4 mr = glm::eulerAngleYXZ(glm::radians(rotation.y), glm::radians(rotation.x), glm::radians(rotation.z));
 		glm::mat4 ms = glm::scale(scale);
 		glm::mat4 mx = mt * mr * ms;
-
 		ProcessNode(scene->mRootNode, scene, mx);
 
 		return true;
@@ -50,7 +49,7 @@ namespace nc
 			aiMesh* mesh = scene->mMeshes[node->mMeshes[i]];
 			ProcessMesh(mesh, scene, transform);
 		}
-		// process the current node children
+		// process the current node childrenz
 		for (unsigned int i = 0; i < node->mNumChildren; i++)
 		{
 			ProcessNode(node->mChildren[i], scene, transform);
